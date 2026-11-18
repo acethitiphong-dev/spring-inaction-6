@@ -19,6 +19,16 @@
             "projectName": "sia-taco-cloud",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TacoCloudApplication<taco-cloud-02>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tacos.TacoCloudApplication",
+            "projectName": "taco-cloud-02",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
