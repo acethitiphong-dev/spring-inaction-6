@@ -30,6 +30,8 @@ public class TacoCloudApplication {
         repo.save(new Ingredient("JACK", "Monterrey Jack", Type.CHEESE));
         repo.save(new Ingredient("SLSA", "Salsa", Type.SAUCE));
         repo.save(new Ingredient("SRCR", "Sour Cream", Type.SAUCE));
+        repo.save(new Ingredient("BEEF", "Beef", Type.PROTEIN));
+        repo.save(new Ingredient("CHKN", "Chicken", Type.PROTEIN));
       }
     };
   }
